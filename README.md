@@ -25,8 +25,8 @@ Autostart printing on klipper boot
 - Час таймеру (за замовчуванням 30 секунд) можна змінити командою: ```AUTOSTART_SET TIMEOUT=60```
 
 ## Процес друку:
-- При початку друку файл "autostart.gcode" переіменовується на "autostart-printing.gcode"
-- На кінці друку файл переіменовується на "autostart-done-{date}.gcode" (*поки не працює належним чином, файл переіменовується зразу*)
+- Перед початком друку файл "autostart.gcode" переіменовується на "autostart-printing.gcode"
+- Після - на "autostart-done-{date}.gcode" (для запобігання повторного друку)
 - Для повторного автозапуску дрку перейменуйте цей файл назад, або додайте новий "autostart.gcode" на флешку
 
 <hr>
