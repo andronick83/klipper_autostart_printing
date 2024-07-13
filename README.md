@@ -26,7 +26,7 @@ Autostart printing on klipper boot
 
 ## Процес друку:
 - Перед початком друку файл "autostart.gcode" переіменовується на "autostart-printing.gcode"
-- Після - на "autostart-done-{date}.gcode" (для запобігання повторного друку)
+- Після - на "autostart-done-{date}.gcode" (для запобігання друку при повторному перезавантаженні)
 - Для повторного автозапуску дрку перейменуйте цей файл назад, або додайте новий "autostart.gcode" на флешку
 
 <hr>
