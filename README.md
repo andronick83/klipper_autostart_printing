@@ -1,8 +1,6 @@
 # Klipper Autostart Printing
 
 Autostart printing on klipper boot
-- Author: [andronick83.mail@gmail.com](mailto:andronick.mail@gmail.com) :shipit:
-- License: [MIT License](http://opensource.org/licenses/MIT) :+1:
 
 <hr>
 
